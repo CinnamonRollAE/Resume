@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+body {font-family: 'Caveat', 'Impallari Type','sans-serif'; 
+      background: rgb(240, 233, 220);
+      font-size: 22px;
+      letter-spacing: 1px;
+      margin: 0 0 40px 0;
+}
+
+.container {
+max-width: 820px;
+margin: auto;  
+padding-top: 40px;  
+word-spacing: 3px; 
+}
+
+@media (max-width:500px) {
+      .container{
+            text-align: center;   
+      }   
+}
+
+.art {
+width: 200px;
+border-radius: 50%;
+box-shadow: 8px 8px 28px  rgba(33, 28, 16, 0.25);
+display: block;
+margin: 0 auto;             
+}
+
+.links {
+text-align: center;
+}
+
+.links a {
+text-decoration: none;
+color:black;      
+}
+
+a:hover {
+color: #ca9205
+}
+
+.info h1 {
+text-align: center;
+letter-spacing: 2px;
+margin: 30px 0px 0px 0px;
+}
+
+.info p {
+margin: 0 auto;
+max-width:790px;
+padding: 15px 20px 60px 20px;
+}
+
+.card {
+border-radius:20px;
+padding: 40px 40px;
+}
+
+.wpink, .pink{
+background: url("bg.jpg");
+box-shadow: 2px 2px 22px  rgba(130, 117, 88, 0.25);
+}
+
+.wpink h3{    
+text-align: center;
+letter-spacing: 2px;
+margin: 0;
+margin-bottom:15px;
+}  
+
+.list{
+margin: 0;
+padding: 0;
+list-style: none;
+letter-spacing:0.5px;
+word-spacing: 5px;
+padding-left: 10px;
+}
+
+.list li{
+padding-top: 10px;
+border-bottom: 3px solid rgba(178, 134, 46, 0.174); 
+}
+
+h3{
+text-align: center;
+letter-spacing: 2px;
+margin: 80px 0px 10px 0px;    
+}
+
+.title-form{
+text-align: center;
+letter-spacing: 2px;
+margin: 80px 0px 30px 0px;    
+}
+
+p{
+margin: 0 auto;
+max-width:800px;
+padding: 15px 20px 60px 20px;    
+}
+
+.table{
+width: 100%; 
+text-align: left;
+border-spacing: 10px;
+}
+
+.table th{
+background: rgba(178, 134, 46, 0.189);;
+}
+
+.table th, tr, td{
+border-spacing: 10px;
+border-style: solid;
+border-color: rgba(178, 134, 46, 0.174);
+border-radius:6px;
+font-size: 22px;
+}
+
+.table td:hover {
+background: #cb9c2517;
+}
+
+.title-table{
+text-align: center;
+letter-spacing: 2px;
+margin: 0;
+margin-bottom:15px;
+}
+
+.form {
+padding: 20px 20px 0px 30px;
+display: block;
+box-shadow: 4px 4px 18px  rgba(130, 117, 88, 0.25);
+background:   rgba(233, 223, 205, 0.862); 
+border-radius: 15px; 
+font-size: 22px;
+}
+
+.form-group label{
+display: block;
+color: #0e0b05e4;
+padding-top: 5px;  
+}
+
+.form-group input, .form-group textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 2px solid rgba(118, 96, 40, 0.141);
+padding: 10px 0px 10px;
+outline: none;
+color: black;
+font-family: caveat;
+font-size: 18px;
+}
+
+ .form-group input:hover,.form-group textarea:hover {
+background: #cb9c2517;
+border-radius: 8px;
+ } 
+
+.btn {
+background: #644b0c;
+margin: 30px 10px 40px 10px;
+padding: 12px 25px;
+border:none;
+color: rgb(249, 228, 202);
+font-family: Tina Anderson;
+letter-spacing: 1.1px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.btn:hover {
+opacity: 0.8;
+color: #e7a726be;
+}
+
+
+
